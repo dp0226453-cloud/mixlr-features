@@ -1,0 +1,329 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+   display: flex;
+   padding: 20px 20px;
+   align-items:center;
+   justify-content: space-between;
+   
+}
+
+.header{
+   display: flex;
+   gap: 25px;
+   align-items: center;
+}
+.header a{
+   color: black;
+}
+
+img{
+   display: flex;
+   width: 120px;
+   background-color: none;
+}
+
+header>nav {
+   display: flex;
+   gap: 30px; 
+   padding: 0;
+}
+
+
+a:hover{
+   text-decoration:underline;
+   color: #ffc724;
+}
+
+.header a {
+   text-decoration: none;
+   font-size: 25px;
+   align-items: flex-end;
+}
+
+.free{
+   padding: 15px 30px;
+   font-weight: bold;
+   background-color: #ed1c24;
+   border-radius: 30px;
+}
+
+.free:hover{
+   background-color: gray;
+   transition: 1s;
+}
+.hero-section>div{
+   width: 40%;
+   margin: 70px auto;
+   text-align:  center;
+   padding: 20px 0;
+}
+.hero-section h4{
+   font-size: 5rem;
+   font-weight: 400;
+}
+.hero-section p{
+   font-size: 30px;
+}
+.btn-group{
+   margin-top: 20px;
+}
+.btn-group button{
+   border: 1px solid #ed1c24;
+   font-size: 1.4rem;
+   font-weight: bold;
+   border-radius: 30px;
+   width: 250px;
+   height: 60px;
+}
+.view:hover{
+   color: black;
+   border: 1px solid black;
+}
+.view{
+   color: #ed1c24;
+}
+.get{
+   border: none;
+   background: #ed1c24;
+   color: white;
+}
+.get:hover{
+   box-shadow: 0 6px 16px rgba(255, 79, 139, 0.3);
+   transition: background-color 0.3s ease;
+}
+
+.more{
+   width: 70%;
+   margin: auto;
+   justify-content: center;
+}
+.container{
+   display: flex;
+   margin-bottom: 100px;
+   gap: 50px;
+   align-items: center;
+   justify-content: space-between;
+}
+.box{
+   width: 50%;
+   align-items: center;
+   justify-content: space-between;
+   line-height: 3dvh;
+   padding: 25px;
+}
+.box-image{
+   width: 70%;
+}
+.box-image>img{
+   width: 100%;
+   align-content: center;
+}
+.box>h5{
+   font-size: 4rem;
+   line-height: 70px;
+}
+.box>p{
+   font-size: 1.2rem;
+   padding-top: 10px;
+}
+.theresmore{
+   justify-content: space-between;
+   margin: 20px auto;
+   /* border: 1px solid; */
+   width: 60%;
+}
+.mor{
+   text-align: center;
+   margin-bottom: 100px;
+   font-weight: bold;
+   font-size: 3rem;
+}
+.put{
+   /* border: 1px solid; */
+   display: flex;
+}
+.one{
+   /* border: 1px solid; */
+   width: 50%;
+   margin: auto;
+}
+.one>img{
+   width: 20%;
+   margin: auto;
+}
+.one>h3{
+   text-align: center;
+   font-weight: bolder;
+   padding: 10px;
+   font-size: 1.4rem;
+}
+.one>p{
+   /* border: 1px solid; */
+   width: 400px;
+   padding: 10px;
+   margin: auto;
+   font-size: 1.4rem;
+   text-align: center;
+}
+.audio{
+   /* border: 1px solid; */
+   margin: auto;
+   text-align: center;
+   height: 120dvh;
+}
+.audio>h2{
+   /* border: 1px dotted; */
+   width: 25%;
+   margin: 10px auto;
+   font-size: 3rem;
+}
+.audio>h2{
+   margin-top: 100px;
+}
+.audio>.btn-group{
+   margin-top: 40px;
+}
+.foot{
+   /* border: 1px solid; */
+   margin: auto;
+   justify-content: center;
+}
+.foot>img{
+   justify-content: center;
+   margin: auto;
+   margin-top: 200px;
+}
+.icons{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.icons>img{
+   width: 2%;
+   margin-top: 100px;
+   padding: 7px;
+}
+footer{
+   /* border: 1px solid; */
+   margin-bottom: 50px;
+   margin-top: 40px;   
+}
+.footer a{
+   padding: 10px;
+   color: black;
+   text-decoration: none;
+   /* margin-bottom: 5px; */
+   /* color: white/; */
+}
+.footer a:hover{
+   color: #ffc724;
+}
+.last{
+   margin-bottom: 10px;
+   font-size:1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+   header{
+      display: none;
+   }
+   .hero-section>div{
+      width: 100%;
+      margin: 20px auto;
+   }
+   .hero-section h4{
+      width: 100%;
+      padding: 10px;
+      margin: auto;
+      font-size: 2.3rem;
+      font-weight: 200;
+   }
+   .hero-section p{
+      font-size: 25px;
+   }
+   .more{
+      width: 90%;
+      line-height: 1dvh;
+   }
+   .box{
+      width: 70%;
+   }
+   .more .box>h5{
+      font-size: 1.3rem;
+      line-height: 20px;
+   }
+
+   .theresmore{
+      width: 90%;
+   }
+   .put .one{
+      width: 80%;
+   }
+   .one>img{
+      width: 30%;
+      justify-content: space-evenly;
+   }
+   .audio{
+      height: 20dvh;
+   }
+   .audio>h2{
+      width: 50%;
+   }
+   .foot{
+      display: none;
+   }
+   .footer{
+      display: none;
+   }
+}
+@media screen and (max-width: 500px) {
+   .hero-section>div{
+      width: 100%;
+      margin: 10px auto
+   }
+   
+
+   .more .box>h5{
+      font-size: 1.9rem;
+      margin-bottom: 30px;
+      line-height: 30px;
+   }
+   .box{
+      width: 80%;
+      text-align: center;
+   }
+
+   .more .container{
+      flex-direction: column;
+   }
+   .more .container:nth-child(even){
+      flex-direction: column-reverse;
+   }
+   .more .box-image{
+      width: 100%;
+      align-items:center;
+   }
+   .btn-group .get{
+      margin-top: 20px;
+      padding: 10px;
+   }
+   .put{
+      flex-direction:column;
+      align-items:center;
+   }
+   .put .one>p{
+      width:300px;
+   }
+   .theresmore .mor{
+      font-weight:lighter;
+   }
+   .audio>h2{
+      width:60%;
+      font-weight:lighter;
+   }
+}
